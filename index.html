@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ประวัติวันคริสต์มาส</title>
+    <style>
+        @keyframes snowfall {
+            0% {
+                transform: translateY(-10px);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(100vh);
+                opacity: 0;
+            }
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #001f3f, #0074D9);
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .snow {
+            position: fixed;
+            top: 0;
+            left: 50%;
+            width: 10px;
+            height: 10px;
+            background: white;
+            border-radius: 50%;
+            animation: snowfall 10s linear infinite;
+        }
+
+        .snow:nth-child(2) {
+            animation-duration: 8s;
+            animation-delay: 2s;
+            left: 25%;
+        }
+
+        .snow:nth-child(3) {
+            animation-duration: 12s;
+            animation-delay: 4s;
+            left: 75%;
+        }
+
+        .snow:nth-child(4), .snow:nth-child(5), .snow:nth-child(6) {
+            animation-duration: 10s;
+            animation-delay: 1s;
+            left: 15%;
+        }
+
+        .snow:nth-child(7) {
+            animation-duration: 14s;
+            animation-delay: 3s;
+            left: 65%;
+        }
+
+        .snow:nth-child(8) {
+            animation-duration: 16s;
+            animation-delay: 5s;
+            left: 85%;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px;
+            background: url('https://source.unsplash.com/1600x900/?christmas') no-repeat center center;
+            background-size: cover;
+            color: #f7f7f7;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 4rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1.5rem;
+        }
+
+        section {
+            padding: 20px 10%;
+            line-height: 1.8;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        section h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            color: #FFD700;
+            margin-bottom: 20px;
+        }
+
+        .timeline {
+            position: relative;
+            margin: 20px auto;
+            padding: 20px 0;
+            max-width: 100%;
+            box-sizing: border-box;
+        }
+
+        .event {
+            margin: 20px 0;
+            padding: 20px;
+            border-left: 4px solid #FFD700;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+
+        .event h3 {
+            margin: 0;
+            font-size: 1.8rem;
+            color: #FFDC00;
+        }
+
+        .event p {
+            margin: 10px 0;
+        }
+
+        .event img {
+            max-width: 100%;
+            border-radius: 8px;
+            margin-top: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #001f3f;
+            color: #f7f7f7;
+            border-top: 2px solid #FFD700;
+            animation: fadeIn 3s ease-in-out;
+        }
+
+        footer a {
+            color: #FFD700;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+    <div class="snow"></div>
+
+    <header>
+        <h1>Merry Christmas</h1>
+        <p>การเฉลิมฉลองแห่งความสุข ความรัก และแสงสว่าง</p>
+    </header>
+
+    <section>
+        <h2>ประวัติของวันคริสมาส</h2>
+        <div class="timeline">
+            <div class="event">
+                <h3>รากฐานในยุคโบราณ</h3>
+                <p>คริสต์มาสเป็นเทศกาลสำคัญที่เฉลิมฉลองการประสูติของพระเยซูคริสต์ ซึ่งตรงกับวันที่ 25 ธันวาคมของทุกปี เป็นเวลาที่ผู้คนมักรวมตัวกันในครอบครัว ประดับตกแต่งบ้านด้วยต้นคริสต์มาส ไฟประดับ และของขวัญ นอกจากนี้ยังมีการจัดพิธีทางศาสนา เช่น การไปโบสถ์หรือร้องเพลงสรรเสริญ บางประเทศมีตัวละครเช่นซานตาคลอสที่มอบของขวัญให้เด็ก ๆ เทศกาลนี้ไม่เพียงเฉลิมฉลองในกลุ่มคริสเตียน แต่ยังเป็นโอกาสแห่งความสุข ความเมตตา และการแบ่งปันในหลายวัฒนธรรมทั่วโลก</p>
+                <img src="web-2.jpg" alt="Ancient Festival">
+            </div>
+
+            <div class="event">
+                <h3>การประสูติของพระเยซู</h3>
+                <p>การประสูติของพระเยซูเกิดขึ้นที่เมืองเบธเลเฮม พระแม่มารี ผู้ได้รับการแจ้งจากทูตสวรรค์กาเบรียลว่าจะให้กำเนิดพระบุตรของพระเจ้า ได้เดินทางพร้อมโยเซฟมายังเมืองนี้ แต่ไม่มีที่พัก ทั้งสองจึงพักในคอกสัตว์ และพระเยซูประสูติในที่นั้น ถูกวางในรางหญ้า การประสูติครั้งนี้เป็นสัญญาณแห่งความรอดและการสมปรารถนาของคำพยากรณ์ ทูตสวรรค์แจ้งข่าวแก่คนเลี้ยงแกะ และดวงดาวนำเหล่านักปราชญ์มาสักการะพระองค์ด้วยของขวัญ สะท้อนถึงความเรียบง่ายและความเมตตาของพระผู้ไถ่</p>
+                <img src="d_20171223010604.jpg" alt="Nativity Scene">
+            </div>
+
+            <div class="event">
+                <h3>ธรรมเนียมปัจจุบัน</h3>
+                <p>ธรรมเนียมปัจจุบันของเทศกาลคริสต์มาสมักเกี่ยวข้องกับการเฉลิมฉลองร่วมกันในครอบครัว การประดับต้นคริสต์มาส ไฟประดับ และมอบของขวัญเป็นสัญลักษณ์ของการแบ่งปันและความรัก หลายคนเข้าร่วมพิธีทางศาสนา เช่น การไปโบสถ์หรือร้องเพลงคริสต์มาส ในบางวัฒนธรรม ซานตาคลอสหรือบุคคลที่คล้ายคลึงกันจะมอบของขวัญให้เด็ก ๆ นอกจากนี้ยังมีอาหารพิเศษ เช่น ไก่งวง ขนมปังขิง และพุดดิ้งคริสต์มาส เทศกาลนี้ไม่ได้จำกัดเฉพาะชาวคริสต์ แต่ยังเป็นช่วงเวลาแห่งความสุขและความปรองดองในสังคมทั่วโลก</p>
+                <img src="7-christmas-traditions-original-banner.jpg" alt="Christmas Traditions">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Christmas Chronicles. เรียนรู้เพิ่มเติมเกี่ยวกับ <a href="https://th.wikipedia.org/wiki/คริสต์มาส">ประวัติวันคริสต์มาส</a>.</p>
+    </footer>
+</body>
+</html>
